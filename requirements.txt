@@ -1,0 +1,12 @@
+python-dotenv
+setuptools
+pandas
+numpy
+scikit-learn
+pymongo
+seaborn
+matplotlib
+ipykernel
+scipy
+
+-e .
