@@ -13,7 +13,6 @@ list_of_files=[
          f'{project_name}/Components/model_trainer.py',
           f'{project_name}/Components/model_pusher.py',
 
-           f'{project_name}/Configuration/__init__.py',
            f'{project_name}/Constants/__init__.py',
            
            f'{project_name}/entity/__init__.py',
