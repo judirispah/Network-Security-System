@@ -55,7 +55,7 @@ class NetworkETL():
 
 
 if __name__=='__main__':
-    file_path=r"Network_Data\dataset_full.csv"
+    file_path=r"Network_Data\phisingData.csv"
     database="network_db"
     collection="network_tb"
     networkobj=NetworkETL()

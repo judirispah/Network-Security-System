@@ -41,7 +41,7 @@ class DataValidation:
         On Failure  :   Write an exception log and then raise an exception
         """
         try:
-            status = len(dataframe.columns) == 112
+            status = len(dataframe.columns) == 31
             logging.info(f"Is required column present: [{status}]")
             return status
         except Exception as e:
@@ -58,41 +58,40 @@ class DataValidation:
         On Failure  :   Write an exception log and then raise an exception
         """
         try:
-            #data_drift_profile = Profile(sections=[DataDriftProfileSection()])
+            data_drift_profile = Profile(sections=[DataDriftProfileSection()])
 
-            #data_drift_profile.calculate(reference_df, current_df)
+            data_drift_profile.calculate(reference_df, current_df)
 
-            #report = data_drift_profile.json()
-            #json_report = json.loads(report)
+            report = data_drift_profile.json()
+            json_report = json.loads(report)
 
-            #write_yaml_file(file_path=self.data_validation_config.drift_report_file_path, content=json_report) 
-            #n_features = json_report["data_drift"]["data"]["metrics"]["n_features"]
-            #n_drifted_features = json_report["data_drift"]["data"]["metrics"]["n_drifted_features"]
+            write_yaml_file(file_path=self.data_validation_config.drift_report_file_path, content=json_report) 
+            n_features = json_report["data_drift"]["data"]["metrics"]["n_features"]
+            n_drifted_features = json_report["data_drift"]["data"]["metrics"]["n_drifted_features"]
 
-            #logging.info(f"{n_drifted_features}/{n_features} drift detected.")
-            #drift_status = json_report["data_drift"]["data"]["metrics"]["dataset_drift"]
-            report={}
-            drift_status = False
+            logging.info(f"{n_drifted_features}/{n_features} drift detected.")
+            drift_status = json_report["data_drift"]["data"]["metrics"]["dataset_drift"]
+            #report={}
+            #drift_status = False
 
-            for column in reference_df.columns:
-                df1=reference_df[column]
-                df2=current_df[column]
-                stat,p_value=ks_2samp(df1,df2)
-                drift_status = p_value < threshold # drift_detect
+            #for column in reference_df.columns:
+                #df1=reference_df[column]
+                #df2=current_df[column]
+                #stat,p_value=ks_2samp(df1,df2)
+                #drift_status = p_value < threshold # drift_detect
 
-                report[column] = {
-            "KS Statistic": round(stat, 4),
-            "P-Value": round(p_value, 4),
-            "Drift Status": drift_status
-        }
+                #report[column] = {
+            #"KS Statistic": round(stat, 4),
+            #"P-Value": round(p_value, 4),
+            #"Drift Status": drift_status}
 
-            if drift_status:
-                logging.info(f"🚨 Drift detected in column: {column}")
-                drift_status = True  # Update overall drift flag
-            else:
-                logging.info(f"✅ No drift detected in column: {column}")
-            df=pd.DataFrame.from_dict(report,orient="index")
-            df.to_csv(self.data_validation_config.drift_report_file_path, index_label="Column")
+            #if drift_status:
+                #logging.info(f"🚨 Drift detected in column: {column}")
+                #drift_status = True  # Update overall drift flag
+            #else:
+                #logging.info(f"✅ No drift detected in column: {column}")
+            #df=pd.DataFrame.from_dict(report,orient="index")
+            #df.to_csv(self.data_validation_config.drift_report_file_path, index_label="Column")
 
             return drift_status
         except Exception as e:

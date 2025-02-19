@@ -1,5 +1,6 @@
 import os
 from datetime import date
+import numpy as np
 
 DATABASE_NAME = "network_db"
 COLLECTION_NAME = "network_tb"
@@ -7,7 +8,7 @@ COLLECTION_NAME = "network_tb"
 PIPELINE_NAME: str = "Network"
 ARTIFACT_DIR: str = "artifact"
 
-TARGET_COLUMN = "phishing"
+TARGET_COLUMN = "Result"
 
 PREPROCSSING_OBJECT_FILE_NAME = "preprocessing.pkl"
 FILE_NAME: str = "phishing.csv"
@@ -34,5 +35,17 @@ Data Validation realted contant start with DATA_VALIDATION VAR NAME
 """
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
-DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.csv"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
 DATA_VALIDATION_SCHEMA_FILE: str = SCHEMA_FILE_PATH
+
+"""
+Data Transformation ralated constant start with DATA_TRANSFORMATION VAR NAME
+"""
+DATA_TRANSFORMATION_DIR_NAME: str = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DATA_DIR: str = "transformed"
+DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR: str = "transformed_object"
+DATA_TRANSFORMATION_IMPUTER_PARAMS: dict = {
+    "missing_values": np.nan,
+    "n_neighbors": 3,
+    "weights": "uniform",
+}
