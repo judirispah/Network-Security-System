@@ -11,7 +11,7 @@ from Network.exception.exception import NetworkException
 from Network.logging.logger import logging
 load_dotenv()
 
-MONGO_DB_URL=os.getenv('MONGODB_URL')
+MONGO_DB_URL=os.getenv('MONGO_DB_URL')
 print(MONGO_DB_URL)
 ca=certifi.where()
 

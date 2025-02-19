@@ -9,5 +9,16 @@ seaborn
 matplotlib
 ipykernel
 scipy
+evidently
+dill
+PyYAML
+neuro_mf
+imblearn
+jinja2
+tensorflow
+boto3
+mypy-boto3-s3
+
+
 
 -e .
