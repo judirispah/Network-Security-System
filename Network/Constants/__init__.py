@@ -34,5 +34,5 @@ Data Validation realted contant start with DATA_VALIDATION VAR NAME
 """
 DATA_VALIDATION_DIR_NAME: str = "data_validation"
 DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
-DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.csv"
 DATA_VALIDATION_SCHEMA_FILE: str = SCHEMA_FILE_PATH
