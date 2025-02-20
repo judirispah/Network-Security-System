@@ -19,6 +19,10 @@ tensorflow
 boto3
 mypy-boto3-s3
 imbalanced-learn
+xgboost
+catboost
+dagshub
+fastapi
 
 
 

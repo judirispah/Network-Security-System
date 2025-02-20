@@ -18,7 +18,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.7779285391225692
+          - 0.8050655811849844
           - 0.0
           - 0.0
           - 0.0
@@ -27,9 +27,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.222071460877432
+          - 4.194934418815016
         drift_detected: false
-        drift_score: 0.010176630004787711
+        drift_score: 0.016795888493064366
         feature_type: num
         ref_small_hist:
           x:
@@ -45,7 +45,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.7264812302125737
+          - 0.71969696969697
           - 0.0
           - 0.0
           - 0.0
@@ -54,7 +54,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.273518769787428
+          - 4.280303030303031
         stattest_name: Jensen-Shannon distance
       DNSRecord:
         current_small_hist:
@@ -71,7 +71,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.5558570782451384
+          - 1.6146540027137046
           - 0.0
           - 0.0
           - 0.0
@@ -80,9 +80,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 3.444142921754863
+          - 3.3853459972862967
         drift_detected: false
-        drift_score: 0.00025900446741798714
+        drift_score: 0.010923069155077948
         feature_type: num
         ref_small_hist:
           x:
@@ -98,7 +98,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.5575531433740393
+          - 1.5428539122568978
           - 0.0
           - 0.0
           - 0.0
@@ -107,7 +107,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 3.442446856625962
+          - 3.4571460877431033
         stattest_name: Jensen-Shannon distance
       Domain_registeration_length:
         current_small_hist:
@@ -124,7 +124,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 3.364993215739485
+          - 3.3242876526458622
           - 0.0
           - 0.0
           - 0.0
@@ -133,9 +133,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 1.635006784260516
+          - 1.6757123473541389
         drift_detected: false
-        drift_score: 0.004336333540107078
+        drift_score: 0.0033083193260633917
         feature_type: num
         ref_small_hist:
           x:
@@ -151,7 +151,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 3.336160108548169
+          - 3.3463364993215747
           - 0.0
           - 0.0
           - 0.0
@@ -160,7 +160,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 1.6638398914518322
+          - 1.6536635006784264
         stattest_name: Jensen-Shannon distance
       Favicon:
         current_small_hist:
@@ -177,7 +177,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.9362279511533245
+          - 0.9452736318407963
           - 0.0
           - 0.0
           - 0.0
@@ -186,9 +186,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.063772048846676
+          - 4.054726368159205
         drift_detected: false
-        drift_score: 0.001745546187017728
+        drift_score: 0.003793838277444236
         feature_type: num
         ref_small_hist:
           x:
@@ -204,7 +204,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.9266169154228858
+          - 0.9243554952510179
           - 0.0
           - 0.0
           - 0.0
@@ -213,7 +213,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.073383084577115
+          - 4.0756445047489835
         stattest_name: Jensen-Shannon distance
       Google_Index:
         current_small_hist:
@@ -230,7 +230,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6264133876074176
+          - 0.7055630936227953
           - 0.0
           - 0.0
           - 0.0
@@ -239,9 +239,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.373586612392583
+          - 4.294436906377205
         drift_detected: false
-        drift_score: 0.018078547086870032
+        drift_score: 0.002419978531771692
         feature_type: num
         ref_small_hist:
           x:
@@ -257,7 +257,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.7134780642243331
+          - 0.6936906377204886
           - 0.0
           - 0.0
           - 0.0
@@ -266,7 +266,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.286521935775668
+          - 4.306309362279513
         stattest_name: Jensen-Shannon distance
       HTTPS_token:
         current_small_hist:
@@ -283,7 +283,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.8548168249660789
+          - 0.8683853459972865
           - 0.0
           - 0.0
           - 0.0
@@ -292,9 +292,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.145183175033922
+          - 4.131614654002714
         drift_detected: false
-        drift_score: 0.010108730671571123
+        drift_score: 0.013302951977021069
         feature_type: num
         ref_small_hist:
           x:
@@ -310,7 +310,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.8016734509271825
+          - 0.7982813206693806
           - 0.0
           - 0.0
           - 0.0
@@ -319,7 +319,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.198326549072819
+          - 4.201718679330621
         stattest_name: Jensen-Shannon distance
       Iframe:
         current_small_hist:
@@ -336,7 +336,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.4522840343735867
+          - 0.4929895974672095
           - 0.0
           - 0.0
           - 0.0
@@ -345,9 +345,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.547715965626415
+          - 4.507010402532791
         drift_detected: false
-        drift_score: 0.0016668501381548531
+        drift_score: 0.01067715957277872
         feature_type: num
         ref_small_hist:
           x:
@@ -363,7 +363,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.4590682948891905
+          - 0.44889190411578483
           - 0.0
           - 0.0
           - 0.0
@@ -372,7 +372,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.54093170511081
+          - 4.551108095884216
         stattest_name: Jensen-Shannon distance
       Links_in_tags:
         current_small_hist:
@@ -389,18 +389,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.736770691994573
+          - 1.8204432383536866
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 2.0330167345092702
+          - 1.9335142469470812
           - 0.0
           - 0.0
           - 0.0
-          - 1.2302125734961558
+          - 1.2460425146992313
         drift_detected: false
-        drift_score: 0.010073973920790224
+        drift_score: 0.014682952673895397
         feature_type: num
         ref_small_hist:
           x:
@@ -416,16 +416,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.802351876978743
+          - 1.7814337403889646
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 2.007010402532789
+          - 2.0318860244233363
           - 0.0
           - 0.0
           - 0.0
-          - 1.190637720488467
+          - 1.1866802351876982
         stattest_name: Jensen-Shannon distance
       Links_pointing_to_page:
         current_small_hist:
@@ -447,13 +447,13 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.7363184079601965
+          - 2.779285391225687
           - 0.0
           - 0.0
           - 0.0
-          - 2.0352781546811403
+          - 1.9923111714156494
         drift_detected: false
-        drift_score: 0.013524525173737423
+        drift_score: 0.008577752177276597
         feature_type: num
         ref_small_hist:
           x:
@@ -474,11 +474,11 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.7962460425146967
+          - 2.785504296698324
           - 0.0
           - 0.0
           - 0.0
-          - 1.9510402532790596
+          - 1.9617819990954324
         stattest_name: Jensen-Shannon distance
       Page_Rank:
         current_small_hist:
@@ -495,7 +495,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 3.7132519222071467
+          - 3.747173224785166
           - 0.0
           - 0.0
           - 0.0
@@ -504,9 +504,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 1.2867480777928542
+          - 1.2528267752148352
         drift_detected: false
-        drift_score: 0.0008224601068483798
+        drift_score: 0.007701426268861183
         feature_type: num
         ref_small_hist:
           x:
@@ -522,7 +522,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 3.708163726820444
+          - 3.6996834011759394
           - 0.0
           - 0.0
           - 0.0
@@ -531,7 +531,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 1.291836273179557
+          - 1.3003165988240617
         stattest_name: Jensen-Shannon distance
       Prefix_Suffix:
         current_small_hist:
@@ -548,7 +548,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 4.3600180913613755
+          - 4.373586612392583
           - 0.0
           - 0.0
           - 0.0
@@ -557,9 +557,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 0.6399819086386251
+          - 0.6264133876074176
         drift_detected: false
-        drift_score: 0.0059278148428883876
+        drift_score: 0.009516557950653233
         feature_type: num
         ref_small_hist:
           x:
@@ -575,7 +575,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 4.331750339213027
+          - 4.328358208955224
           - 0.0
           - 0.0
           - 0.0
@@ -584,7 +584,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 0.6682496607869743
+          - 0.6716417910447762
         stattest_name: Jensen-Shannon distance
       Redirect:
         current_small_hist:
@@ -601,7 +601,7 @@ data_drift:
           - 0.9
           - 1.0
           y:
-          - 8.674807779285391
+          - 8.769787426503845
           - 0.0
           - 0.0
           - 0.0
@@ -610,9 +610,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 1.325192220714609
+          - 1.2302125734961558
         drift_detected: false
-        drift_score: 0.02273127334341479
+        drift_score: 0.010022152343861796
         feature_type: num
         ref_small_hist:
           x:
@@ -628,7 +628,7 @@ data_drift:
           - 0.9
           - 1.0
           y:
-          - 8.885119855269108
+          - 8.861374943464496
           - 0.0
           - 0.0
           - 0.0
@@ -637,7 +637,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 1.1148801447308911
+          - 1.1386250565355045
         stattest_name: Jensen-Shannon distance
       Request_URL:
         current_small_hist:
@@ -654,7 +654,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 2.030755314337404
+          - 2.008141112618725
           - 0.0
           - 0.0
           - 0.0
@@ -663,9 +663,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.969244685662597
+          - 2.991858887381276
         drift_detected: false
-        drift_score: 0.0004069553952246657
+        drift_score: 0.0044795008040318185
         feature_type: num
         ref_small_hist:
           x:
@@ -681,7 +681,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 2.0335820895522394
+          - 2.039235639981909
           - 0.0
           - 0.0
           - 0.0
@@ -690,7 +690,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.966417910447762
+          - 2.9607643600180924
         stattest_name: Jensen-Shannon distance
       Result:
         current_small_hist:
@@ -707,7 +707,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 2.2546359113523295
+          - 2.173224785165084
           - 0.0
           - 0.0
           - 0.0
@@ -716,9 +716,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.7453640886476713
+          - 2.826775214834917
         drift_detected: false
-        drift_score: 0.006996907118115897
+        drift_score: 0.007490028331366035
         feature_type: num
         ref_small_hist:
           x:
@@ -734,7 +734,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 2.205450022614202
+          - 2.2258028041610136
           - 0.0
           - 0.0
           - 0.0
@@ -743,7 +743,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.794549977385799
+          - 2.7741971958389873
         stattest_name: Jensen-Shannon distance
       RightClick:
         current_small_hist:
@@ -760,7 +760,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.22614201718679336
+          - 0.22388059701492544
           - 0.0
           - 0.0
           - 0.0
@@ -769,9 +769,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.773857982813207
+          - 4.776119402985075
         drift_detected: false
-        drift_score: 0.004684907396320366
+        drift_score: 0.0037156412075476284
         feature_type: num
         ref_small_hist:
           x:
@@ -787,7 +787,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.21257349615558577
+          - 0.21313885119855275
           - 0.0
           - 0.0
           - 0.0
@@ -796,7 +796,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.787426503844415
+          - 4.7868611488014485
         stattest_name: Jensen-Shannon distance
       SFH:
         current_small_hist:
@@ -813,18 +813,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 3.8398914518317513
+          - 3.8195386702849397
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 0.33016734509271795
+          - 0.37539574853007657
           - 0.0
           - 0.0
           - 0.0
-          - 0.8299412030755317
+          - 0.8050655811849844
         drift_detected: false
-        drift_score: 0.0055976933289151026
+        drift_score: 0.0126484604898802
         feature_type: num
         ref_small_hist:
           x:
@@ -840,16 +840,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 3.811623699683402
+          - 3.816711895070105
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 0.3476933514246944
+          - 0.33638625056535476
           - 0.0
           - 0.0
           - 0.0
-          - 0.8406829488919043
+          - 0.8469018543645411
         stattest_name: Jensen-Shannon distance
       SSLfinal_State:
         current_small_hist:
@@ -866,18 +866,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.632745364088648
+          - 1.5581184984170062
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 0.5472636815920393
+          - 0.5698778833107186
           - 0.0
           - 0.0
           - 0.0
-          - 2.8199909543193136
+          - 2.872003618272276
         drift_detected: false
-        drift_score: 0.008206921853369733
+        drift_score: 0.013829256695593895
         feature_type: num
         ref_small_hist:
           x:
@@ -893,16 +893,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.602781546811398
+          - 1.6214382632293085
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 0.522953414744459
+          - 0.5172998643147892
           - 0.0
           - 0.0
           - 0.0
-          - 2.8742650384441437
+          - 2.861261872455903
         stattest_name: Jensen-Shannon distance
       Shortining_Service:
         current_small_hist:
@@ -919,7 +919,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6965174129353235
+          - 0.7372229760289464
           - 0.0
           - 0.0
           - 0.0
@@ -928,9 +928,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.303482587064678
+          - 4.262777023971054
         drift_detected: false
-        drift_score: 0.011271656359306393
+        drift_score: 0.021638819111206235
         feature_type: num
         ref_small_hist:
           x:
@@ -946,7 +946,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6422433288104931
+          - 0.6320669380370874
           - 0.0
           - 0.0
           - 0.0
@@ -955,7 +955,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.357756671189508
+          - 4.367933061962914
         stattest_name: Jensen-Shannon distance
       Statistical_report:
         current_small_hist:
@@ -972,7 +972,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6399819086386251
+          - 0.7304387155133426
           - 0.0
           - 0.0
           - 0.0
@@ -981,9 +981,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.3600180913613755
+          - 4.269561284486659
         drift_detected: false
-        drift_score: 0.015765714391486694
+        drift_score: 0.007435780554042882
         feature_type: num
         ref_small_hist:
           x:
@@ -999,7 +999,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.716304839439168
+          - 0.6936906377204886
           - 0.0
           - 0.0
           - 0.0
@@ -1008,7 +1008,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.283695160560833
+          - 4.306309362279513
         stattest_name: Jensen-Shannon distance
       Submitting_to_email:
         current_small_hist:
@@ -1025,7 +1025,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.9045680687471734
+          - 0.9271822704658528
           - 0.0
           - 0.0
           - 0.0
@@ -1034,9 +1034,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.095431931252827
+          - 4.072817729534148
         drift_detected: false
-        drift_score: 0.0014514309697886702
+        drift_score: 0.003718835955544346
         feature_type: num
         ref_small_hist:
           x:
@@ -1052,7 +1052,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.9124830393487112
+          - 0.9068294889190414
           - 0.0
           - 0.0
           - 0.0
@@ -1061,7 +1061,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.08751696065129
+          - 4.0931705110809595
         stattest_name: Jensen-Shannon distance
       URL_Length:
         current_small_hist:
@@ -1078,18 +1078,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 4.034373586612394
+          - 4.075079149706016
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 0.061058344640434144
+          - 0.07236544549977379
           - 0.0
           - 0.0
           - 0.0
-          - 0.9045680687471734
+          - 0.852555404794211
         drift_detected: false
-        drift_score: 0.0041801131303549986
+        drift_score: 0.011532472722578254
         feature_type: num
         ref_small_hist:
           x:
@@ -1105,16 +1105,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 4.056987788331073
+          - 4.046811397557667
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 0.061058344640434144
+          - 0.058231569425599226
           - 0.0
           - 0.0
           - 0.0
-          - 0.8819538670284941
+          - 0.8949570330167347
         stattest_name: Jensen-Shannon distance
       URL_of_Anchor:
         current_small_hist:
@@ -1131,18 +1131,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.5535956580732704
+          - 1.506105834464044
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 2.356399819086384
+          - 2.4129353233830826
           - 0.0
           - 0.0
           - 0.0
-          - 1.0900045228403439
+          - 1.0809588421528722
         drift_detected: false
-        drift_score: 0.013515281790970947
+        drift_score: 0.005273021509130912
         feature_type: num
         ref_small_hist:
           x:
@@ -1158,16 +1158,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.467096336499322
+          - 1.4789687924016286
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 2.428199909543191
+          - 2.4140660334690165
           - 0.0
           - 0.0
           - 0.0
-          - 1.1047037539574855
+          - 1.1069651741293534
         stattest_name: Jensen-Shannon distance
       age_of_domain:
         current_small_hist:
@@ -1184,7 +1184,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 2.3134328358208958
+          - 2.2930800542740846
           - 0.0
           - 0.0
           - 0.0
@@ -1193,9 +1193,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.6865671641791047
+          - 2.7069199457259163
         drift_detected: false
-        drift_score: 0.005929608581523876
+        drift_score: 0.009537524789315917
         feature_type: num
         ref_small_hist:
           x:
@@ -1211,7 +1211,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 2.3552691090004525
+          - 2.3603573043871555
           - 0.0
           - 0.0
           - 0.0
@@ -1220,7 +1220,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 2.644730890999548
+          - 2.6396426956128454
         stattest_name: Jensen-Shannon distance
       dataset_drift: false
       double_slash_redirecting:
@@ -1238,7 +1238,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6919945725915876
+          - 0.7191316146540029
           - 0.0
           - 0.0
           - 0.0
@@ -1247,9 +1247,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.308005427408413
+          - 4.280868385345998
         drift_detected: false
-        drift_score: 0.011903683436042723
+        drift_score: 0.018857142640369345
         feature_type: num
         ref_small_hist:
           x:
@@ -1265,7 +1265,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6348937132519223
+          - 0.6281094527363185
           - 0.0
           - 0.0
           - 0.0
@@ -1274,7 +1274,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.3651062867480785
+          - 4.371890547263682
         stattest_name: Jensen-Shannon distance
       having_At_Symbol:
         current_small_hist:
@@ -1291,7 +1291,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.7756671189507013
+          - 0.7688828584350974
           - 0.0
           - 0.0
           - 0.0
@@ -1300,9 +1300,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.2243328810493
+          - 4.231117141564903
         drift_detected: false
-        drift_score: 0.006685854189894034
+        drift_score: 0.005021235879525614
         feature_type: num
         ref_small_hist:
           x:
@@ -1318,7 +1318,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.7417458163726822
+          - 0.7434418815015832
           - 0.0
           - 0.0
           - 0.0
@@ -1327,7 +1327,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.258254183627319
+          - 4.256558118498418
         stattest_name: Jensen-Shannon distance
       having_IP_Address:
         current_small_hist:
@@ -1344,7 +1344,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.8091361374943469
+          - 1.7526006331976485
           - 0.0
           - 0.0
           - 0.0
@@ -1353,9 +1353,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 3.1908638625056542
+          - 3.2473993668023526
         drift_detected: false
-        drift_score: 0.017349250425999066
+        drift_score: 0.006891794521577126
         feature_type: num
         ref_small_hist:
           x:
@@ -1371,7 +1371,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.6921076436001814
+          - 1.7062415196743559
           - 0.0
           - 0.0
           - 0.0
@@ -1380,7 +1380,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 3.3078923563998197
+          - 3.2937584803256454
         stattest_name: Jensen-Shannon distance
       having_Sub_Domain:
         current_small_hist:
@@ -1397,18 +1397,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.4495703301673455
+          - 1.4676616915422889
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 1.7118950701040239
+          - 1.6169154228855707
           - 0.0
           - 0.0
           - 0.0
-          - 1.83853459972863
+          - 1.9154228855721398
         drift_detected: false
-        drift_score: 0.01615830819395401
+        drift_score: 0.014190870981706813
         feature_type: num
         ref_small_hist:
           x:
@@ -1424,16 +1424,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.538896426956129
+          - 1.534373586612393
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 1.6197421981004057
+          - 1.643487109905019
           - 0.0
           - 0.0
           - 0.0
-          - 1.841361374943465
+          - 1.8221393034825875
         stattest_name: Jensen-Shannon distance
       n_drifted_features: 0
       n_features: 31
@@ -1452,7 +1452,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.5834464043419268
+          - 0.6309362279511534
           - 0.0
           - 0.0
           - 0.0
@@ -1461,9 +1461,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.416553595658074
+          - 4.369063772048848
         drift_detected: false
-        drift_score: 0.0030967916987496395
+        drift_score: 0.009784267455451152
         feature_type: num
         ref_small_hist:
           x:
@@ -1479,7 +1479,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.5975802804161015
+          - 0.5857078245137948
           - 0.0
           - 0.0
           - 0.0
@@ -1488,7 +1488,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.402419719583899
+          - 4.414292175486207
         stattest_name: Jensen-Shannon distance
       popUpWidnow:
         current_small_hist:
@@ -1505,7 +1505,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.9724106739032115
+          - 1.0108548168249663
           - 0.0
           - 0.0
           - 0.0
@@ -1514,9 +1514,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.027589326096789
+          - 3.989145183175035
         drift_detected: false
-        drift_score: 0.001314912149062607
+        drift_score: 0.009857633755954623
         feature_type: num
         ref_small_hist:
           x:
@@ -1532,7 +1532,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.9650610583446406
+          - 0.955450022614202
           - 0.0
           - 0.0
           - 0.0
@@ -1541,7 +1541,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.03493894165536
+          - 4.044549977385799
         stattest_name: Jensen-Shannon distance
       port:
         current_small_hist:
@@ -1558,7 +1558,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.7010402532790595
+          - 0.6897331524197197
           - 0.0
           - 0.0
           - 0.0
@@ -1567,9 +1567,9 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.298959746720942
+          - 4.310266847580281
         drift_detected: false
-        drift_score: 0.005572323542497404
+        drift_score: 0.0026769706835958296
         feature_type: num
         ref_small_hist:
           x:
@@ -1585,7 +1585,7 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 0.6739032112166442
+          - 0.6767299864314791
           - 0.0
           - 0.0
           - 0.0
@@ -1594,7 +1594,7 @@ data_drift:
           - 0.0
           - 0.0
           - 0.0
-          - 4.326096788783357
+          - 4.323270013568522
         stattest_name: Jensen-Shannon distance
       share_drifted_features: 0.0
       web_traffic:
@@ -1612,18 +1612,18 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.2121212121212124
+          - 1.2392582541836275
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 1.1917684305743996
+          - 1.078697421981003
           - 0.0
           - 0.0
           - 0.0
-          - 2.5961103573043878
+          - 2.682044323835369
         drift_detected: false
-        drift_score: 0.007684741381356268
+        drift_score: 0.01778656700395421
         feature_type: num
         ref_small_hist:
           x:
@@ -1639,16 +1639,16 @@ data_drift:
           - 0.8
           - 1.0
           y:
-          - 1.1979873360470377
+          - 1.191203075531434
           - 0.0
           - 0.0
           - 0.0
           - 0.0
-          - 1.1544549977385787
+          - 1.182722749886928
           - 0.0
           - 0.0
           - 0.0
-          - 2.647557666214383
+          - 2.6260741745816376
         stattest_name: Jensen-Shannon distance
     num_feature_names:
     - Abnormal_URL
@@ -1694,6 +1694,6 @@ data_drift:
       id: null
       prediction: null
       target: null
-  datetime: '2025-02-19 17:00:44.160163'
+  datetime: '2025-02-20 15:19:43.726200'
   name: data_drift
-timestamp: '2025-02-19 17:00:44.160163'
+timestamp: '2025-02-20 15:19:43.726200'
