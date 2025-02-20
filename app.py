@@ -5,6 +5,10 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from starlette.responses import HTMLResponse, RedirectResponse
 from uvicorn import run as app_run
+from fastapi import FastAPI, File, UploadFile,Request
+import pandas as pd
+from Network.utils.main_utils import load_object
+from Network.entity.estimator import NetworkModel
 
 from Network.exception.exception import NetworkException
 from Network.logging.logger import logging
@@ -29,6 +33,40 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/", tags=["authentication"])
+async def index():
+    return RedirectResponse(url="/docs")
+
+
+@app.get("/train")
+async def trainRouteClient():
+    try:
+        train_pipeline = TrainPipeline()
+
+        train_pipeline.run_pipeline()
+
+        return Response("Training successful !!")
+
+    except Exception as e:
+        return Response(f"Error Occurred! {e}")
+
+@app.post("/predict")
+async def predictRouteClient(request: Request,file: UploadFile =File(...)):
+    df=pd.read_csv(file.file)
+    print(df)
+    preprocesor=load_object("final_model/preprocessing.pkl")
+    final_model=load_object("final_model/model.pkl")
+    network_model = NetworkModel(preprocessing_object=preprocesor,trained_model_object=final_model)
+    print(df.iloc[0])
+    y_pred = network_model.predict(df)
+    print(y_pred)
+    df['predicted_column'] = y_pred
+    print(df['predicted_column'])
+    df.to_csv('prediction_output/output.csv')
+    table_html = df.to_html(classes='table table-striped')
+
+    print(table_html)
+    return templates.TemplateResponse("index.html", {"request": request, "table": table_html})
 
 
 

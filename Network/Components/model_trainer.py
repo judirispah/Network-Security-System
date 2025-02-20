@@ -130,6 +130,9 @@ class ModelTrainer:
                 logging.info("Created best model file path.")
 
             save_object(self.model_trainer_config.trained_model_file_path, network_model)
+            save_object("final_model/model.pkl",network_model)
+            save_object("final_model/preprocessing.pkl",preprocessing_obj)
+
             self.track_mlflow(best_model_detail.best_model,metric_artifact)
 
             model_trainer_artifact = ModelTrainerArtifact(

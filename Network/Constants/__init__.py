@@ -1,6 +1,12 @@
 import os
 from datetime import date
 import numpy as np
+import os
+
+AWS_ACCESS_KEY_ID = os.getenv("AWS_KEY_ID")
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_ACCESS_KEY")
+REGION_NAME = "us-east-1"
+
 
 DATABASE_NAME = "network_db"
 COLLECTION_NAME = "network_tb"
@@ -61,7 +67,10 @@ MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
 
 
-
+MODEL_BUCKET_NAME = "network-model-judi-2025"
+MODEL_PUSHER_S3_KEY = "model-registry"
 MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+
+
 APP_HOST = "0.0.0.0"
 APP_PORT = 8080

@@ -23,6 +23,8 @@ xgboost
 catboost
 dagshub
 fastapi
+uvicorn
+python-multipart
 
 
 
