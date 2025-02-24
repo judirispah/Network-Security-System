@@ -121,24 +121,24 @@ class ModelTrainer:
             preprocessing_obj = load_object(file_path=self.data_transformation_artifact.transformed_object_file_path)
 
             write_yaml_file(Path(self.model_trainer_config.model_trainer_dir)/'metrics.yaml',asdict(metric_artifact))
+            
             if best_model_detail.best_score < self.model_trainer_config.expected_accuracy:
                 logging.info("No best model found with score more than base score")
                 raise Exception("No best model found with score more than base score")
             else:
-                network_model=NetworkModel(preprocessing_object=preprocessing_obj,trained_model_object=best_model_detail.best_model)
+                #network_model=NetworkModel(preprocessing_object=preprocessing_obj,trained_model_object=best_model_detail.best_model)
                 logging.info("Created NETWORK model object with preprocessor and model")
                 logging.info("Created best model file path.")
 
-            save_object(self.model_trainer_config.trained_model_file_path, network_model)
-            save_object("final_model/model.pkl",network_model)
+            save_object(self.model_trainer_config.trained_model_file_path, best_model_detail.best_model)
+            save_object("final_model/model.pkl",best_model_detail.best_model)
             save_object("final_model/preprocessing.pkl",preprocessing_obj)
 
             self.track_mlflow(best_model_detail.best_model,metric_artifact)
 
             model_trainer_artifact = ModelTrainerArtifact(
                 trained_model_file_path=self.model_trainer_config.trained_model_file_path,
-                metric_artifact=metric_artifact,
-            )
+                metric_artifact=Path(self.model_trainer_config.model_trainer_dir)/'metrics.yaml')
             logging.info(f"Model trainer artifact: {model_trainer_artifact}")
             return model_trainer_artifact
         except Exception as e:

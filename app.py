@@ -10,6 +10,8 @@ import pandas as pd
 from Network.utils.main_utils import load_object
 from Network.entity.estimator import NetworkModel
 
+from Network.aws_connection_s3 import S3_connection
+
 from Network.exception.exception import NetworkException
 from Network.logging.logger import logging
 from Network.pipeline.training_pipeline import TrainPipeline
@@ -55,8 +57,10 @@ async def predictRouteClient(request: Request,file: UploadFile =File(...)):
     df=pd.read_csv(file.file)
     print(df)
     preprocesor=load_object("final_model/preprocessing.pkl")
+    #final_model=S3_connection.download_model_s3()
     final_model=load_object("final_model/model.pkl")
     network_model = NetworkModel(preprocessing_object=preprocesor,trained_model_object=final_model)
+    #logging.info('model loaded from s3 in app.py for prediction')
     print(df.iloc[0])
     y_pred = network_model.predict(df)
     print(y_pred)

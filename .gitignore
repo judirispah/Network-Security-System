@@ -173,4 +173,6 @@ logs/
 artifact/
 Notebook/
 final_model/
+predicted_model/
+
 

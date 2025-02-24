@@ -2,11 +2,10 @@ from Network.Components.data_ingestion import DataIngestion
 from Network.Components.data_validation import DataValidation
 from Network.Components.data_transformation import DataTransformation
 from Network.Components.model_trainer import ModelTrainer
-
+from Network.Components.model_pusher import Model_Pusher
 import sys
 from Network.exception.exception import NetworkException
 from Network.logging.logger import logging
-
 from Network.entity.config_entity import DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig
 from Network.entity.artifact_entity import DataIngestionArtifact,DataValidationArtifact,DataTransformationArtifact,ModelTrainerArtifact
 
@@ -106,6 +105,26 @@ class TrainPipeline:
 
         except Exception as e:
             raise NetworkException(e, sys)
+        
+
+
+    def start_model_pusher(self,model_trainer_artifact,data_ingestion_artifact,data_transformation_artifact):
+        """
+        This method of TrainPipeline class is responsible for starting model pusher component
+        """
+        logging.info("Entered the start_model_pusher method of TrainPipeline class") 
+        try:
+            pusher=Model_Pusher(model_trainer_artifact,data_ingestion_artifact,data_transformation_artifact)
+            pusher=pusher.initiate_model_pusher()
+            return pusher
+
+        except Exception as e:
+            raise NetworkException(e, sys) from e      
+        
+
+
+      
+    
              
         
 
@@ -118,8 +137,9 @@ class TrainPipeline:
             data_ingestion_artifact = self.start_data_ingestion()            
             data_validation_artifact = self.start_data_validation(data_ingestion_artifact=data_ingestion_artifact)
             data_transformation_artifact = self.start_data_transformation(
-                data_ingestion_artifact=data_ingestion_artifact, data_validation_artifact=data_validation_artifact)
+            data_ingestion_artifact=data_ingestion_artifact, data_validation_artifact=data_validation_artifact)
             model_trainer_artifact = self.start_model_trainer(data_transformation_artifact=data_transformation_artifact)
+            self.start_model_pusher(model_trainer_artifact,data_ingestion_artifact,data_transformation_artifact)
 
 
 
