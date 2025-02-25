@@ -76,4 +76,4 @@ async def predictRouteClient(request: Request,file: UploadFile =File(...)):
 
 
 if __name__ == "__main__":
-    app_run(app, host=APP_HOST, port=APP_PORT)
+    app_run(app, host="0.0.0.0", port=8080)
